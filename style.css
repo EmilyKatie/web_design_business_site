@@ -56,7 +56,13 @@ body {
       0 0 3rem #fe6e00,
       0 0 4rem #fe6e00;
   }
+  li a:hover,
+  .dropdown:hover .dropbtn {
+    background-color: red;
+  }
 
+  li.dropdown {
+    display: inline-block;
   
   }
   
