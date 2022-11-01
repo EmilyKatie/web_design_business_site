@@ -11,7 +11,33 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet"/> 
 </head>
+<header>
+    <h1>Contact For a Site That Shines</h1>
+</header>
 <body>
-    
+    <div class="container">
+        <form action="action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Type name here">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Type name here">
+            <br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="@youremailhere.shine">
+            <label for="package">Site Package Choice</label>
+            <select id="package">
+                <option value="html">HTML/CSS/JS</option>
+                <option value="wordpress">Wordpress</option>
+                <option value="static">Static Site</option>
+                <option value="unsure">Unsure</option>
+            </select>
+            <br>
+            <label for="message">To get a site that shines, type your basic site and business <br>
+                 needs here and in a short time you will have a site that shines!</label>
+                 <input type="message" id="message" name="message" placeholder="To get a site that shines, type your basic site and business <br>
+                 needs here and in a short time you will have a site that shines! Also any questions can go here as well.">
+        </form>
+        
+    </div>
 </body>
 </html>
