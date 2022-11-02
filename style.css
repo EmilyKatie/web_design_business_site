@@ -56,6 +56,9 @@ body {
       0 0 3rem #fe6e00,
       0 0 4rem #fe6e00;
   }
+  nav-bar{
+    
+  }
   li a:hover,
   .dropdown:hover .dropbtn {
     background-color: red;
