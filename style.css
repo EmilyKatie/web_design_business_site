@@ -23,7 +23,7 @@ body {
   animation: pulse 1.5s infinite alternate;
   color: #f6f6f6;
   font-weight: 400;
-  font-size: 6rem;
+  font-size: 50px;
   border: 0.2rem solid #f6f6f6;
   border-radius: 1rem;
   padding: 2rem;
@@ -56,12 +56,12 @@ body {
       0 0 3rem #fe6e00,
       0 0 4rem #fe6e00;
   }
-  nav-bar{
+  
     .neonText {
       animation: pulse 1.5s infinite alternate;
       color: #f6f6f6;
-      font-weight: 400;
-      font-size: 6rem;
+      font-weight: 100;
+      font-size: 1rem;
       border: 0.2rem solid #f6f6f6;
       border-radius: 1rem;
       padding: 2rem;
@@ -94,7 +94,7 @@ body {
           0 0 3rem #ff66ff,
           0 0 4rem #ff66ff;
       }
-      ul{
+      .ul{
         list-style-type: none;
         margin: 0;
         padding: 0;
@@ -126,7 +126,7 @@ body {
     background-color: purple;
   }
 
-  li.dropdown {
+  .li.dropdown {
     display: inline-block;
   
   }
