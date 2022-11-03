@@ -130,7 +130,23 @@ body {
     display: inline-block;
   
   }
-  
+  select option{
+    .neonText {
+      animation: pulse 1.5s infinite alternate;
+      color: #f6f6f6;
+      font-weight: 400;
+      font-size: 6rem;
+      border: 0.2rem solid #f6f6f6;
+      border-radius: 1rem;
+      padding: 2rem;
+      box-shadow:
+        0 0 .2rem #fff,
+        0 0 .2rem #fff,
+        0 0 .8rem #ff66ff,
+        0 0 1.8rem #ff66ff,
+        0 0 2.8rem #ff66ff,
+        inset 0 0 1.4rem #ff66ff;
+  }
 
 }
 
