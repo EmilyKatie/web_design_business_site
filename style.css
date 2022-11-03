@@ -94,10 +94,36 @@ body {
           0 0 3rem #ff66ff,
           0 0 4rem #ff66ff;
       }
+      ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: purple;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        
+      }
+  }
+  li{
+    float: left;
+  }
+  a {
+    display: block;
+    padding: 8px;
+    background-color: purple;
+  }
+  li a{
+    animation: pulse 1.5s infinite alternate;
+      color: #f6f6f6;
+      font-weight: 400;
+      font-size: 6rem;
+      border: 0.2rem solid #f6f6f6
   }
   li a:hover,
-  .dropdown:hover .dropbtn {
-    background-color: red;
+   {
+    background-color: purple;
   }
 
   li.dropdown {
@@ -117,7 +143,7 @@ body{
     align-items: center;
     justify-content: center;
 
-  
+}
   @media all and (max-width: 500px{
         header {
           font-size: 12pt;
