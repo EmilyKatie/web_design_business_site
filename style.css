@@ -18,6 +18,10 @@ body {
   justify-content: space-around;
   height: 125vh;
 }
+.title {
+  color: tomato;
+
+}
 
 .neonText {
   animation: pulse 1.5s infinite alternate;
@@ -107,6 +111,9 @@ body {
       }
   }
   li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     float: left;
   }
   a {
