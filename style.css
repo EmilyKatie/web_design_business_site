@@ -13,7 +13,7 @@ body {
   font-family: 'Rajdhani', sans-serif;
   background-color: #6a5acd;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: space-around;
   height: 125vh;
@@ -94,7 +94,7 @@ body {
           0 0 3rem #ff66ff,
           0 0 4rem #ff66ff;
       }
-      .ul{
+      .ul li{
         list-style-type: none;
         margin: 0;
         padding: 0;
