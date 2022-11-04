@@ -22,7 +22,12 @@ body {
   color: tomato;
 
 }
-
+li{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: left;
+  
 .neonText {
   animation: pulse 1.5s infinite alternate;
   color: #f6f6f6;
@@ -110,11 +115,7 @@ body {
         
       }
   }
-  li{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    float: left;
+  
   }
   a {
     display: block;
