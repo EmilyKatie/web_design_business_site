@@ -28,34 +28,19 @@
   height: 20vh;
   margin: 0 auto;
 }
-$content-width: 1000px;
-$breakpoint: 799px;
-$nav-height: 70px;
-$nav-background: #bd57d9;
-$nav-font-color: #1a1b1c;
-$link-hover-color: #2581dc;
-.navigation {
- height: $nav-height;
- background: $nav-background;
-}
 
-.business {
-  position: absolute;
-  padding: 20px;
-  float: left;
-  line-height: $nav-height;
-  text-transform: uppercase;
-  font-size: 1.4em;
+
   a,
   a:visited {
-    color: $nav-font-color;
+    color: #f6f6f6;
     text-decoration: none;
   }
-}
+
 .container flex {
-  max-width: $content-width;
-  margin 0 auto;
-}
+  max-width: content-width;
+  margin: 0 auto;
+  padding: 0 40px;
+
 nav{
  float: right;
   .ul {
@@ -69,12 +54,12 @@ nav{
       a:visited {
         display: block;
         padding: 0 20px;
-        line-height: $nav-height;
-        background: $nav-background;
-        color: $nav-font-color;
+        line-height: 1.5;
+        background: nav-bg-color;
+        color: nav-font-color;
         text-decoration: none;
         &:hover {
-          background: $link-hover-color;
+          background: link-hover-color;
           color: $nav-font-color;
         }
         &:not(:only-child):after {
@@ -92,11 +77,11 @@ nav{
   }
 }
 
-.navbar flex {
+.nav flex {
   justify-content: space-between;
 }
 
-.navbar a {
+.nav a {
   padding: 30px;
   margin: 0 30px;
   border-radius: 20px;
@@ -115,7 +100,32 @@ nav{
   height: 100%;
   }
 
-  .dropdown {
+  .nav-dropdown {
+    position: relative;
+    display: inline-block;
+    }
+    
+    .nav-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    }
+    
+    .nav-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    }
+    
+    .nav-dropdown-content a:hover {background-color: #f1f1f1;}
+    
+    .nav-dropdown:hover .nav-dropdown-content {display: block;}
+    
+    .nav-dropdown:hover .nav-
     
   }
 
